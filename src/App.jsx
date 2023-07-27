@@ -7,7 +7,6 @@ const App = () => {
   const [counter, setCounter] = useState(0);
   const increment=()=>{
     setCounter(counter+1);
-    
   }
   useEffect(()=>{
     console.log(counter);
